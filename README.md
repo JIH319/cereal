@@ -1,4 +1,4 @@
-# SSAFY STUDY : *CREAL* 🥣🍽
+# SSAFY STUDY : *CEREAL* 🥣🍽
 
 ### 스터디 목적
 
