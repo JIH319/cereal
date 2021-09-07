@@ -12,7 +12,7 @@ pip list
 
 pip install django django_extensions
 
-
+pip install django-bootstrap-v5
 
 pip list
 
@@ -41,11 +41,13 @@ git commit -m 'first commit'
 * 프로젝트 실수 했을 때 >> rm -rf (지울것)
 * pip freeze > requirements.txt : 관리(협업 대비)
 
+https://jhryu1208.github.io/devlang/2021/04/04/modulerrorsolution/
 
+```cmd
+python -m ipykernel install --user --name env --display-name conda-python3
+```
 
-
-
-django-admin startproject (프로젝트이름)
+django-admin startproject (프로젝트이름) .
 
 python manage.py runserver : 확인 가능
 
