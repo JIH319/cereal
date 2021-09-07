@@ -13,5 +13,7 @@
 
 - [ ] Django
 - [ ] 알고리즘
+
 [백준/2589] 보물섬 https://www.acmicpc.net/problem/2589
+
 [SWEA/4299] 태혁이의 사랑은 타이밍
