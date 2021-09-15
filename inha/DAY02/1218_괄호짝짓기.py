@@ -1,3 +1,7 @@
+import sys
+
+sys.stdin = open('1218_input.txt')
+
 for tc in range(1, 11):
     N = int(input())
     bracket = list(input())
