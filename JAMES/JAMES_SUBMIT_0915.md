@@ -22,8 +22,9 @@ print(result)
 # 괄호 짝짓기(오류..)
 
 ```python
-N = int(input())
-for tc in range(1, N + 1):
+T=10
+for tc in range(1, T + 1):
+    N = int(input())
     sequence = input()
     expression = {'[': ']', '{': '}', '(': ')', '<': '>'}
     stack = []
