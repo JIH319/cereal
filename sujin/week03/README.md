@@ -71,7 +71,7 @@ def bfs(r,c):
     q = []
     q.append((r,c))
     while q:
-        cr, cc = q.pop()
+        cr, cc = q.pop(0)
         # 집은 상우하좌 네가지 방향으로만 인정
         for di, dj in [(-1,0),(0,1),(1,0),(0,-1)]:
             nr, nc = cr+di, cc+dj
