@@ -66,12 +66,17 @@ for tc in range(1,T+1):
                     if not rst.get(a) is None:
                         rst[a] += 1
                 m_sum += mj[j][2]
-        if rst['S'] >= 2 and rst['A'] and rst['M'] and rst['U'] and rst['N'] and rst['G']:
-            if min_sum > m_sum:
-                min_sum = m_sum
+        if rst['S'] >= 2:
+            for k in rst.values():
+                if not k:
+                    break
+            else:
+                if min_sum > m_sum:
+                    min_sum = m_sum
     if min_sum == 10000:
         min_sum = -1
     print('#{} {}'.format(tc, min_sum))
+
 ```
 
 
