@@ -26,6 +26,9 @@
 | 2021.09.24 | [[백준/10814]나이순 정렬](https://www.acmicpc.net/problem/10814) | 김지은 |
 |  | [[SWEA/4223]삼성이의 트라우마 극복](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AWKpmwua-VoDFAUV) | 윤수현 |
 |  | [[백준/2556]단지번호 붙이기](https://www.acmicpc.net/problem/2667) | 임현모 |
+| 2021.10.01 |  |  |
+| |  |  |
+| |  |  |
 
 ### 과목평가 대비
 - [x] 9/13 과목평가 대비 - 삼각함수 개념 잡기 (9.12)
