@@ -26,9 +26,9 @@
 | 2021.09.24 | [[백준/10814]나이순 정렬](https://www.acmicpc.net/problem/10814) | 김지은 |
 |  | [[SWEA/4223]삼성이의 트라우마 극복](https://swexpertacademy.com/main/code/userProblem/userProblemDetail.do?contestProbId=AWKpmwua-VoDFAUV) | 윤수현 |
 |  | [[백준/2556]단지번호 붙이기](https://www.acmicpc.net/problem/2667) | 임현모 |
-| 2021.10.01 |  |  |
-| |  |  |
-| |  |  |
+| 2021.10.01 | [[SWEA/1248] 공통조상](https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=5&contestProbId=AV15PTkqAPYCFAYD&categoryId=AV15PTkqAPYCFAYD&categoryType=CODE&problemTitle=&orderBy=SUBMIT_COUNT&selectCodeLang=PYTHON&select-1=5&pageSize=10&pageIndex=1) |  |
+| | [[백준/5639]이진 검색 트리](https://www.acmicpc.net/problem/5639) |  |
+| | [[SWEA/1855] 영준이의 진짜 BFS](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LnipaDvwDFAXc) |  |
 
 ### 과목평가 대비
 - [x] 9/13 과목평가 대비 - 삼각함수 개념 잡기 (9.12)
