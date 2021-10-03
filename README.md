@@ -30,6 +30,10 @@
 | | [[백준/1068] 트리](https://www.acmicpc.net/problem/1068) | ALL |
 | | + ) [[SWEA/1855] 영준이의 진짜 BFS](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LnipaDvwDFAXc) | 차주 진행 |
 | | + ) [[백준/5639]이진 검색 트리](https://www.acmicpc.net/problem/5639) | 차주 진행 |
+| 2021.10.08 | [[SWEA/1248] 공통조상](https://swexpertacademy.com/main/code/problem/problemDetail.do?problemLevel=5&contestProbId=AV15PTkqAPYCFAYD&categoryId=AV15PTkqAPYCFAYD&categoryType=CODE&problemTitle=&orderBy=SUBMIT_COUNT&selectCodeLang=PYTHON&select-1=5&pageSize=10&pageIndex=1) | ALL |
+| | [[백준/1012] 유기농 배추](https://www.acmicpc.net/problem/1012) |     |
+| | [[SWEA/2056] 연월일달력](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5QLkdKAz4DFAUq&categoryId=AV5QLkdKAz4DFAUq&categoryType=CODE&problemTitle=&orderBy=INQUERY_COUNT&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=5) |       |
+| | + ) [[백준/5639]나무 재테크](https://www.acmicpc.net/problem/16235) |       |
 
 
 
