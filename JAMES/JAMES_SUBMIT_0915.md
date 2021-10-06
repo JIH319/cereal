@@ -22,9 +22,8 @@ print(result)
 # 괄호 짝짓기(오류..)
 
 ```python
-T=10
-for tc in range(1, T + 1):
-    N = int(input())
+N = int(input())
+for tc in range(1, N + 1):
     sequence = input()
     expression = {'[': ']', '{': '}', '(': ')', '<': '>'}
     stack = []
@@ -34,10 +33,10 @@ for tc in range(1, T + 1):
         if i in expression.keys():
             stack.append(i)
         else:
-            if i == expression[stack[-1]]: #하나씩 비교해서 그 쌍만 없애주는 건 알겠는데.. 이렇게 하묜 왜. 아는 사람을 알려조..
+            if i == expression[stack[-1]]: #여기에서 오류가 난다... 보는 사람을 알려조..
                 stack.pop()
             else:
-                break
+                print(0)
 
     if stack: print(0)
     else: print(1)
