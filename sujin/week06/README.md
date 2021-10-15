@@ -4,8 +4,9 @@
 import sys
 
 def palindrome(arr,N):
-    arr.sort()     # 문자열 정렬
-
+    arr.sort()     # 문자열 정렬 >> input : ADDBBAC >> AABBCDD
+	
+    
     # 글자수가 홀수라면 >> 하나만 홀수개수
     if N & 1:
         count = 1
@@ -14,24 +15,29 @@ def palindrome(arr,N):
         count = 0
     i = 0               # 문자열 리스트 인덱스
     cnt = 0             # 홀수 개수의 문자가 나오면 카운팅
-    palin = ['A'] * N   # palindrome 만들 리스트
+    palin = ['A'] * N   # palindrome 만들 리스트 초기화
     pidx = 0            # palindrome 인덱스
+    
     # 허용 가능 홀수 개수 넘거나 인덱스가 넘으면 반복 탈출
     while cnt <= count and i+1 < N:
-        if arr[i] == arr[i+1]: # 연달아 같은 수면
+        # 연달아 같은 수면, 중간을 기점으로 양끝에 빈곳부터
+        if arr[i] == arr[i+1]: 
             palin[pidx],palin[N-1-pidx] = arr[i],arr[i+1]
             pidx += 1
             i += 2
-        else:		# 홀수 글자수 일때 한개짜리 문자 >> 중간위치
+        # 연달아 같은 수가 아니다 >> 홀수 글자수 일때 한개짜리 문자 >> 중간위치
+        else:		
             palin[N//2] = arr[i]
             i += 1
             cnt += 1
-    # 팰린드롬 불가능
+            
+    # 허용 홀수짜리 문자 개수 초과 >> 팰린드롬 불가능
     if cnt > count:
         print("I'm Sorry Hansoo")
         return
     # 글자수 홀수, 마지막 글자가 회문 중간글자일때
-    elif cnt < count:
+    # 마지막에 한개짜리 문자 덜정렬된채로 반복 종료 >> 중간에 넣기
+    elif cnt < count: 
         palin[pidx] = arr[-1]
     print(''.join(palin))
 
