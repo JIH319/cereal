@@ -33,9 +33,9 @@
 | 2021.10.08 | [[백준/1012] 유기농 배추](https://www.acmicpc.net/problem/1012) | ALL |
 | | [[SWEA/2056] 연월일달력](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5QLkdKAz4DFAUq&categoryId=AV5QLkdKAz4DFAUq&categoryType=CODE&problemTitle=&orderBy=INQUERY_COUNT&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=5) | ALL |
 | | [[백준/5639]나무 재테크](https://www.acmicpc.net/problem/16235) | ALL |
-| 2021.10.15 | [[백준/1213]팰린드롬 만들기](https://www.acmicpc.net/problem/1213) | |
-| | [[SWEA/10761]신뢰](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXSVc1TqEAYDFAQT) | |
-| | [[백준/17070]파이프 옮기기1](https://www.acmicpc.net/problem/17070) | |
+| 2021.10.15 | [[백준/1213]팰린드롬 만들기](https://www.acmicpc.net/problem/1213) | ALL |
+| | [[SWEA/10761]신뢰](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXSVc1TqEAYDFAQT) | ALL |
+| | [[백준/17070]파이프 옮기기1](https://www.acmicpc.net/problem/17070) | 차주 진행 |
 | 2021.10.22 | [[SWEA/2112]보호필름](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V1SYKAaUDFAWu) | |
 | | [[백준/14888]연산자 끼어넣기](https://www.acmicpc.net/problem/14888) | |
 
