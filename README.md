@@ -36,6 +36,9 @@
 | 2021.10.15 | [[백준/1213]팰린드롬 만들기](https://www.acmicpc.net/problem/1213) | |
 | | [[SWEA/10761]신뢰](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXSVc1TqEAYDFAQT) | |
 | | [[백준/17070]파이프 옮기기1](https://www.acmicpc.net/problem/17070) | |
+| | | ALL |
+| 2021.10.22 |  | |
+| | | |
 
 
 
