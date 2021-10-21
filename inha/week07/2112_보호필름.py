@@ -5,7 +5,6 @@ sys.stdin = open('2112_input.txt')
 
 
 def check(arr): # 성능검사를 통과한 경우 1, 통과하지 못한 경우 0을 반환
-    result = 1
     # 열 우선 순회
     for j in range(W):
         order = arr[0][j]
@@ -18,8 +17,10 @@ def check(arr): # 성능검사를 통과한 경우 1, 통과하지 못한 경우
             else:
                 cnt = 1
                 order = arr[i][j]
-        else: result = 0    # 성능통과 못 함
-    return result
+        else:
+            # 성능통과 못 함
+            return 0
+    return 1
 
 
 # 성능 검사 통과하지 못 했다면 약물 투입
@@ -42,7 +43,6 @@ def insert(idx, arr, cnt):  # idx: 약물 투입할 행의 인덱스, arr: 성�
     # idx 행에 A 약물 투입하거나
     arr[idx] = [0]*W
     insert(idx+1, arr, cnt+1)
-    arr[idx] = temp
     # idx 행에 B 약물 투입
     arr[idx] = [1]*W
     insert(idx+1, arr, cnt+1)
