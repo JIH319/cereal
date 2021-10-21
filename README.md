@@ -37,7 +37,7 @@
 | | [[SWEA/10761]신뢰](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXSVc1TqEAYDFAQT) | ALL |
 | | [[백준/17070]파이프 옮기기1](https://www.acmicpc.net/problem/17070) | 차주 진행 |
 | 2021.10.22 | [[SWEA/2112]보호필름](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V1SYKAaUDFAWu) | |
-| | [[백준/14888]연산자 끼어넣기](https://www.acmicpc.net/problem/14888) | |
+| | [[백준/14888]연산자 끼워넣기](https://www.acmicpc.net/problem/14888) | |
 
 
 
