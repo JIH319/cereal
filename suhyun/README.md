@@ -20,6 +20,8 @@
 | 2021.10.15(WEEK06) | [[백준/1213]팰린드롬 만들기](https://www.acmicpc.net/problem/1213) | O |
 | | [[SWEA/10761]신뢰](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXSVc1TqEAYDFAQT) | O |
 | | [[백준/17070]파이프 옮기기1](https://www.acmicpc.net/problem/17070) | O |
+| 2021.10.22 | [[SWEA/2112]보호필름](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V1SYKAaUDFAWu) |X |
+| | [[백준/14888]연산자 끼워넣기](https://www.acmicpc.net/problem/14888) |O |
 
 
 
