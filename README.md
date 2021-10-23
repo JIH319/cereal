@@ -35,9 +35,12 @@
 | | [[백준/5639]나무 재테크](https://www.acmicpc.net/problem/16235) | ALL |
 | 2021.10.15 | [[백준/1213]팰린드롬 만들기](https://www.acmicpc.net/problem/1213) | ALL |
 | | [[SWEA/10761]신뢰](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXSVc1TqEAYDFAQT) | ALL |
-| | [[백준/17070]파이프 옮기기1](https://www.acmicpc.net/problem/17070) | 차주 진행 |
-| 2021.10.22 | [[SWEA/2112]보호필름](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V1SYKAaUDFAWu) | |
-| | [[백준/14888]연산자 끼워넣기](https://www.acmicpc.net/problem/14888) | |
+| | [[백준/17070]파이프 옮기기1](https://www.acmicpc.net/problem/17070) | ALL |
+| 2021.10.22 | [[SWEA/2112]보호필름](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V1SYKAaUDFAWu) | ALL |
+| | [[백준/14888]연산자 끼워넣기](https://www.acmicpc.net/problem/14888) | ALL |
+| 2021.10.29 | [[백준/2003]수들의 합](https://www.acmicpc.net/problem/2003) | |
+| | [[백준/3176]도로 네트워크](https://www.acmicpc.net/problem/3176) | |
+| | [[SWEA/1949]등산로 조성](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PoOKKAPIDFAUq) | |
 
 
 
