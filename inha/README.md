@@ -22,9 +22,9 @@
 |            | [[백준/17070]파이프 옮기기1](https://www.acmicpc.net/problem/17070) |  O   |
 | 2021.10.22 | [[SWEA/2112]보호필름](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V1SYKAaUDFAWu) | O |
 |            | [[백준/14888]연산자 끼어넣기](https://www.acmicpc.net/problem/14888) |  O   |
-|            |                                                              |      |
-|            |                                                              |      |
-|            |                                                              |      |
+| 2021.10.29 | [[백준/2003]수들의 합](https://www.acmicpc.net/problem/2003) | O |
+|            | [[백준/3176]도로 네트워크](https://www.acmicpc.net/problem/3176) |      |
+|            | [[SWEA/1949]등산로 조성](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PoOKKAPIDFAUq) | O |
 |            |                                                              |      |
 |            |                                                              |      |
 |            |                                                              |      |
