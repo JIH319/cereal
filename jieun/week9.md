@@ -1,3 +1,29 @@
+# 10828. 스택
+```python
+import sys
+input = sys.stdin.readline
+stack = []
+
+for _ in range(int(input())):
+    data = input().split()
+    # push면 stack에 추가
+    if data[0] == 'push':
+        stack.append(data[1])
+    # stack이 존재하면 top 출력 아니면 -1
+    elif data[0] == 'top':
+        print(stack[-1] if stack else -1)
+    # stack 길이 출력
+    elif data[0] == 'size':
+        print(len(stack))
+    # 스택이 있으면 0 아니면 1
+    elif data[0] == 'empty':
+        print(0 if stack else 1)
+    # 스택이 있으면 pop 아니면 -1
+    elif data[0] == 'pop':
+        print(stack.pop() if stack else -1)
+```
+
+
 # 15815. 천재 수학자 성필
 ```python
 data = list(input())
@@ -22,6 +48,11 @@ for d in data:
 print(num_stack[0])
 ```
 
+# 4949. 균형잡힌 세상
+
+
+
+
 # 23253. 자료구조는 정말 최고야
 
 ```python
@@ -41,6 +72,7 @@ else:
     print('Yes')
 
 ```
+
 
 # 2257. 화학식량
 ```python
@@ -78,3 +110,9 @@ while idx < len(data):
 
 print(sum(stack))
 ```
+
+# 12789. 도키도키 간식드리미
+
+
+
+# 17298. 
