@@ -1,6 +1,6 @@
 
 
-# 자료구조는 최고 아니야
+# 자료구조는 최고 아니야(O)
 
 ```python
 """
@@ -35,7 +35,7 @@ print(result)
 
 
 
-# 천재 수학자 성필
+# 천재 수학자 성필(O)
 
 ```python
 """
@@ -96,29 +96,29 @@ while True:
 
 
 
-# 화학식량
+# 화학식량(O)
 
 ```python
-#왜 안되는고니..
+import sys
 data = {'H': 1, 'C': 12, 'O': 16}
-while True:
-    stack = []
+stack = []
+for i in sys.stdin.readline().rstrip():
     tmp = 0
-    for i in input():
-        if i == '(': #여는 괄호면
-            stack.append(i) #넣고
-        if i in data.keys(): #키에 해당되는 값이면
-            stack.append(data[i]) #그 밸류값을 스택에 넣고
-        if i == ')': #닫는 괄호면
-            while True: 
-                if stack.pop() == '(': #팝한게 여는 괄호일때까지 와일
-                    break 
-                tmp += stack.pop() #그게아니면 tmp에 숫자들을 다 더해준다
-            stack.append(tmp) # 여는 괄호를 만나서 나왔을때 tmp에 있는 값이 다시 스택에 어펜드
-        if 2 <= int(i) <= 9: # 숫자가 나왔을때는
-            stack.append(stack.pop() * int(i)) # 숫자 바로 앞의 값을 곱해줘서 다시 어펜드
+    if i == '(': #여는 괄호면
+        stack.append(i) #넣고
+    elif i in data.keys(): #키에 해당되는 값이면
+        stack.append(data[i]) #그 밸류값을 스택에 넣고
+    elif i == ')': #닫는 괄호면
+        while True: 
+            if stack[-1] == '(': #팝한게 여는 괄호일때까지 와일
+                stack.pop()
+                break 
+            tmp += stack.pop() #그게아니면 tmp에 숫자들을 다 더해준다
+        stack.append(tmp) # 여는 괄호를 만나서 나왔을때 tmp에 있는 값이 다시 스택에 어펜드
+   else: # 숫자가 나왔을때는
+        stack.append(stack.pop() * int(i)) # 숫자 바로 앞의 값을 곱해줘서 다시 어펜드
             
-    print(sum(stack)) # 스택에 남은 숫자들을 다 더한다
+print(sum(stack)) # 스택에 남은 숫자들을 다 더한다
 ```
 
 
@@ -200,7 +200,7 @@ for i in range(len(data)): #인덱스로 접근..
 
 
 
-# 스택
+# 스택(O)
 
 ```python
 # push X: 정수 X를 스택에 넣는 연산이다.
