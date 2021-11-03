@@ -170,6 +170,37 @@ for val in data:# 입력값을 한줄씩 검사
 # 23253. 자료구조는 정말 최고야
 
 ```python
+# N : 교과서의 수
+# M : 교과서 더미의 수
+# 둘째 줄부터 M*2 줄에 걸쳐 입력값 주어짐
+# 교과서 더미의 수 만큼 배열을 만들어서 하나의 배열에 합치기(2차원배열)
+
+# 각 더미를 순서대로 순회하는게 아니다!!
+# 하나씩 뽑아서 뽑은것들끼리 비교, 가장 작은값을 result 배열에 넣자
+# 그 다음은 result의 마지막요소와 비교해서 result가 더 크다면 No
+
+# 구현을 못했다...
+# 시간이 남는다면 위의 아이디어로 다시 풀어보자
+
+# 질문검색을 참고해서 내림차순으로 정렬하면 된다는 아이디어를 얻고 풀어보았다.
+# 입력값을 받고 정렬하여 검사하면 시간초과
+# sys 모듈을 쓰지 않으면 시간초과
+# 입력을 받고나서 바로 검사하여 확인해야한다.
+
+import sys
+
+N,M = map(int,sys.stdin.readline().split())
+for i in range(M):
+    _ = sys.stdin.readline() # 책의 개수는 필요없기에 변수에 할당하지 않는다.
+    book = list(map(int,sys.stdin.readline().split()))
+    # 내림차순값을 sort_data 에 할당하고 원본과 비교
+    sort_data = sorted(book,reverse=True)
+    if book != sort_data:
+        print('No')
+        break
+else:
+    print('Yes')
+
 ```
 
 
@@ -179,6 +210,43 @@ for val in data:# 입력값을 한줄씩 검사
 # 2257. 화학식량
 
 ```python
+# H : 수소, 질량 1
+# C : 탄소, 질량 12
+# O : 산소, 질량 16
+
+# 입력값을 숫자로 변환하여 stack에 넣고
+# 입력값이 숫자라면 stack의 마지막요소랑 곱하기
+# 입력값이 닫는 괄호라면 여는 괄호가 나올때까지 숫자를 꺼내서 더해주기
+
+data = list(input())
+stack =[]
+
+for i in data:
+    if i == 'H':
+        stack.append(1)
+    elif i =='C':
+        stack.append(12)
+    elif i =='O':
+        stack.append(16)
+    elif i == '(':
+        stack.append(i)
+    elif i == ')':
+        # 여는 괄호가 나올때까지 더한다.
+        sum_val = 0
+        while True:
+            if stack[-1] != '(':
+                pop_data = stack.pop()
+                sum_val += pop_data
+            # 여는 괄호가 나온다면 여는 괄호 pop해서 빼주고 계속 더한값 sum_val을 push 한다.
+            else:
+                stack.pop()
+                stack.append(sum_val)
+                break
+    else:
+        pop_data = stack.pop()
+        stack.append(pop_data*int(i))
+
+print(sum(stack))
 ```
 
 
