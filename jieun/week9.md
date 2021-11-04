@@ -49,7 +49,40 @@ print(num_stack[0])
 ```
 
 # 4949. 균형잡힌 세상
+```python
+import sys
+input = sys.stdin.readline
 
+while True:
+    words = input().rstrip()
+    if words == '.':
+        break
+    stack = []
+    isBal = True
+
+    for word in words:
+        if word == '(' or word == '[':
+            stack.append(word)
+
+        elif word == ')':
+            if len(stack) > 0 and stack[-1] == '(':
+                stack.pop()
+            else :
+                isBal = False
+                break
+
+        elif word == ']':
+            if len(stack) > 0 and stack[-1] == '[':
+                stack.pop()
+            else :
+                isBal = False
+                break
+
+    if isBal and not stack:
+        print('yes')
+    else:
+        print('no')
+```
 
 
 
@@ -112,7 +145,57 @@ print(sum(stack))
 ```
 
 # 12789. 도키도키 간식드리미
+```python
+N = int(input())
+num = 1
+# 원래 줄
+stack = list(map(int, input().split()))[::-1]
+# 한명씩 설 수 있는 공간
+new_stack = []
+
+while stack or new_stack:
+    # 만약 한명씩 설 수 있는 공간에 사람이 있고, 맨 앞 사람이 지금 나와야하는 num과 같으면 pop, num ++
+    if new_stack and new_stack[-1] == num:
+        new_stack.pop()
+        num += 1
+        continue
+    # 한 명씩 설수 있는 공간에 아무도 없거나 맨 앞사람이 지금 나와야하는 번호가 아니면 줄 서 있는 곳에서 일단 한명 pop
+    student = stack.pop()
+    # 만약 지금 pop한 애가 맞는 순서라면
+    if student == num:
+        num += 1
+        continue
+    # 만약 한명씩 설 수 있는 공간에 사람이 있고, 그 사람의 순서보다 지금 pop한 애 순서가 더 클 경우 무조건 sad
+    if new_stack and new_stack[-1] < student:
+        print('Sad')
+        break
+    # 그게 아니라면 일단 한명씩 줄서는 공간에 student 추가
+    new_stack.append(student)
+else:
+    # break 걸리지 않고 while문 끝나면 nice 출력
+    print('Nice')
+```
 
 
+# 17298. 오큰수
+```python
+import sys
+from collections import deque
+input = sys.stdin.readline
 
-# 17298. 
+N = int(input())
+A = list(map(int, input().split()))
+# 오큰수 초기화
+NGE = [-1]*N
+stack = deque()
+# A 배열 앞에서부터 차례로 돌면서 확인
+for i in range(N):
+    # stack이 있고 stack top의 첫번째값(수열 A[i-k]의 값)이 A[i]보다 작을 경우, pop 해주면서 오큰수 업데이트
+    while stack and (stack[-1][0] < A[i]):
+        tmp, idx = stack.pop()
+        NGE[idx] = A[i]
+    # stack이 없거나, stack top의 첫번째 값이 A[i]보다 클 경우 stack에 추가
+    stack.append([A[i], i])
+
+print(*NGE)
+```
