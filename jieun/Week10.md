@@ -207,3 +207,27 @@ for i in range(N-1, -1, -1):
 
 print(*signal)
 ```
+
+
+
+# 6198. 옥상 정원 꾸미기
+
+```python
+import sys
+input = sys.stdin.readline
+N = int(input())
+buildings = [int(input()) for _ in range(N)]
+stack = []
+ans = 0
+# 이것도 오큰수랑 비슷하네..
+
+for i in range(N):
+    while stack and stack[-1] <= buildings[i]:
+        stack.pop()
+
+    stack.append(buildings[i])
+    ans += len(stack) - 1
+
+print(ans)
+```
+
