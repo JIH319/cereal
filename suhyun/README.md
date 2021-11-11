@@ -32,6 +32,13 @@
 |  | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/8.svg" width="20" height="20">[[2257]화학식량](https://www.acmicpc.net/problem/2257) |O |
 |  | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/7.svg" width="20" height="20">[[12789]도키도키 간식드리미](https://www.acmicpc.net/problem/12789) |O |
 |  | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/12.svg" width="20" height="20">[[17298]오큰수](https://www.acmicpc.net/problem/17298) |O |
+| 2021.11.04(WEEK10) |  |O |
+|  |  |O |
+|  |  |O |
+|  |  |O |
+|  |  |O |
+|  |  |O |
+|  |  |O |
 
 
 
