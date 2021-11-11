@@ -16,7 +16,7 @@ def dfs(start):
         cur = stack[-1]
         for i in range(1,N+1):
             # 현재 점에서 갈 수 있고, 미방문인 노드 찾으면 >> break
-            # 갈 수 있으면 계속 ㄱㄱ
+            # 방문 표시와 함께 출력
             if adj[cur][i] and not visited[i]:
                 stack.append(i)
                 visited[i] = 1
@@ -27,8 +27,11 @@ def dfs(start):
             stack.pop()
 
 def dfs_recursion(current):
+    
+    # 방문 표시와 함께 출력
     selected[current] = 1
     print(current,end=' ')
+    # 현재 점에서 갈 수 있고, 미방문인 노드 찾으면 >> 재귀 호출
     for i in range(1,N+1):
         if adj[current][i] and not selected[i]:
             dfs_recursion(i)
