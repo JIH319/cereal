@@ -39,12 +39,12 @@
 |  | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/8.svg" width="20" height="20">[[2606]바이러스](https://www.acmicpc.net/problem/2606)(이우영) |O |
 |  | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/11.svg" width="20" height="20">[[2493]탑](https://www.acmicpc.net/problem/2493)(김지은) |O |
 |  | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/11.svg" width="20" height="20">[[6198]옥상정원꾸미기](https://www.acmicpc.net/problem/6198)(임현모) |O |
-| 2021.11.18(WEEK11) | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/9.svg" width="20" height="20">[[6603]로또](https://www.acmicpc.net/problem/6603)(윤수현) | |
-| | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/8.svg" width="20" height="20">[[11399]ATM](https://www.acmicpc.net/problem/11399)(이우영) | |
-| | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/10.svg" width="20" height="20">[[16198]에너지 모으기](https://www.acmicpc.net/problem/16198)(임현모) | |
-| | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/7.svg" width="20" height="20">[[13305]주유소](https://www.acmicpc.net/problem/13305)(이수진) | |
-| | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/9.svg" width="20" height="20">[[1931]회의실 배정](https://www.acmicpc.net/problem/1931)(정인하) | |
-| | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/7.svg" width="20" height="20">[[1783]병든 나이트](https://www.acmicpc.net/problem/1783)(김지은) | |
+| 2021.11.18(WEEK11) | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/9.svg" width="20" height="20">[[6603]로또](https://www.acmicpc.net/problem/6603)(윤수현) | O |
+| | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/8.svg" width="20" height="20">[[11399]ATM](https://www.acmicpc.net/problem/11399)(이우영) | O |
+| | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/10.svg" width="20" height="20">[[16198]에너지 모으기](https://www.acmicpc.net/problem/16198)(임현모) | O |
+| | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/7.svg" width="20" height="20">[[13305]주유소](https://www.acmicpc.net/problem/13305)(이수진) | O |
+| | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/9.svg" width="20" height="20">[[1931]회의실 배정](https://www.acmicpc.net/problem/1931)(정인하) | O |
+| | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/7.svg" width="20" height="20">[[1783]병든 나이트](https://www.acmicpc.net/problem/1783)(김지은) | O |
 | | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/9.svg" width="20" height="20">[[18222]투에-모스 문자열](https://www.acmicpc.net/problem/18222)(제임스) | |
 | |  | |
 
