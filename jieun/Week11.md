@@ -21,7 +21,10 @@ while True:
 
 ```
 
+
+
 # 11399. ATM
+
 ```python
 _ = int(input())
 people = list(map(int, input().split()))
@@ -37,7 +40,10 @@ for i in s_people:
 print(sum_p)
 ```
 
+
+
 # 16198. 에너지 모으기
+
 ### del / insert 쓴 버전
 ```python
 # x 번째 에너지 구슬 하나 고름 (첫번째, 마지막 x)
@@ -90,7 +96,39 @@ W = list(map(int, input().split()))
 print(energy(W))
 ```
 
+
+
+# 13305. 주유소
+
+```python
+N = int(input())
+road = list(map(int, input().split()))
+oil = list(map(int, input().split()))
+
+# 일단 제일 왼쪽도시에서 다음 도시까지의 기름은 무조건 넣어야함
+price = oil[0] * road[0]
+now_cost = oil[0]
+# 그리디 알고리즘 이므로 모든 경우의 수 따져서는 안 됨
+# 이전 오일 가격이랑 지금 방문할 도시의 오일 가격을 서로 비교하며 싼 오일 가격으로 업데이트
+# 5, 2, 4 1 일 경우... 두번째 도시 방문할 때까지 제일 싼 가격은 5..
+# 세번째 도시 방문시, 제일 싼가격은 2.. 업데이트
+# 네번째 도시 방문시 역시 싼 가격 2
+# 이전 도시에서 네번째 도시 방문할 때까지의 기름을 채웠다고 가정해서 + 제일 싼 가격 * 도로길이
+# x번째 도시에서 x+1번째 도시로 가는 도로는 road 배열의 x번 째에 위치함을 기억!
+for i in range(1, N-1):
+    if now_cost > oil[i]:
+        now_cost = oil[i]
+        price += now_cost * road[i]
+    else:
+        price += now_cost * road[i]
+
+print(price)
+```
+
+
+
 # 1931. 회의실 배정
+
 ```python
 import sys
 input = sys.stdin.readline
