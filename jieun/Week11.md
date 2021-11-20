@@ -1,3 +1,121 @@
+# 6603. 로또
+```python
+def lotto(start, depth):
+    if depth == 6:
+        print(*comb)
+        return
+    for i in range(start, len(data)):
+        comb[depth] = data[i]
+        lotto(i+1, depth+1)
+
+
+comb = [0]*6
+while True:
+    data = list(map(int,input().split()))
+    if data[0] == 0:
+        break
+
+    data = data[1:]
+    lotto(0, 0)
+    print()
+
+```
+
+# 11399. ATM
+```python
+_ = int(input())
+people = list(map(int, input().split()))
+
+s_people = sorted(people)
+sum_p = 0
+acc = 0
+
+for i in s_people:
+    sum_p += acc + i
+    acc += i
+
+print(sum_p)
+```
+
+# 16198. 에너지 모으기
+### del / insert 쓴 버전
+```python
+# x 번째 에너지 구슬 하나 고름 (첫번째, 마지막 x)
+# x 번째 에너지 구슬 제거
+# x-1 * x+1 에너지 모음
+# n을 1 감소
+import sys
+input = sys.stdin.readline
+
+def energy(my_energy):
+    global answer
+    if len(W) == 2:
+        answer = max(answer, my_energy)
+        return
+
+    for i in range(1, len(W)-1):
+        my_energy += (W[i-1]*W[i+1])
+        temp = W[i]
+        del W[i]
+        energy(my_energy)
+        W.insert(i, temp)
+        my_energy -= (W[i-1]*W[i+1])
+
+
+N = int(input())
+W = list(map(int, input().split()))
+answer = 0
+energy(0)
+print(answer)
+```
+
+### 슬라이싱 쓴 버전
+``` python
+import sys
+input = sys.stdin.readline
+
+
+def energy(arr):
+    if len(W) == 3:
+        return arr[0] * arr[2]
+    answer = 0
+    for i in range(1, len(arr)-1):
+        my_energy = arr[i-1]*arr[i+1] + energy(arr[:i] + arr[i+1:])
+        answer = max(my_energy, answer)
+    return answer
+
+
+N = int(input())
+W = list(map(int, input().split()))
+print(energy(W))
+```
+
+# 1931. 회의실 배정
+```python
+import sys
+input = sys.stdin.readline
+# 활동 선택 문제 -> 종료시간을 기준으로 정렬
+n = int(input())
+meeting = []
+for _ in range(n):
+    meeting.append(tuple(map(int, input().split())))
+
+# 끝나는 시간이 똑같을 경우 시작 시간이 빠를 것을 선택할 수 있도록
+# (2,2) (1,2) 일때 (1,2) (2,2) 일 경우가 될 수 있기 때문에
+# key에 튜플로 여러 인자를 주면 인자 순서대로 정렬
+meeting.sort(key=lambda x: (x[1], x[0]))
+
+answer = 1
+end_time = meeting[0][1]
+for i in range(1, n):
+    if end_time <= meeting[i][0]:
+        answer += 1
+        end_time = meeting[i][1]
+
+print(answer)
+```
+
+
 # 1783. 병든 나이트
 ```python
 N, M = map(int, input().split())
@@ -19,3 +137,4 @@ elif M < 7:
 else:
     print(M-7+5)
 ```
+
