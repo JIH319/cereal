@@ -176,3 +176,20 @@ else:
     print(M-7+5)
 ```
 
+# 18222. 투에모스 문자열
+```python
+# 1, 2, 4, 8, 16..
+
+def tm(x):
+    if x == 0:
+        return 0
+    elif x == 1:
+        return 1
+    elif x%2:
+        return 1-tm(x//2)
+    else:
+        return tm(x//2)
+
+
+print(tm(int(input())-1))
+```
