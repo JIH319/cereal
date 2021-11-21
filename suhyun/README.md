@@ -44,8 +44,8 @@
 | | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/10.svg" width="20" height="20">[[16198]에너지 모으기](https://www.acmicpc.net/problem/16198)(임현모) | O |
 | | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/7.svg" width="20" height="20">[[13305]주유소](https://www.acmicpc.net/problem/13305)(이수진) | O |
 | | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/9.svg" width="20" height="20">[[1931]회의실 배정](https://www.acmicpc.net/problem/1931)(정인하) | O |
-| | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/7.svg" width="20" height="20">[[1783]병든 나이트](https://www.acmicpc.net/problem/1783)(김지은) | O |
-| | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/9.svg" width="20" height="20">[[18222]투에-모스 문자열](https://www.acmicpc.net/problem/18222)(제임스) | |
+| | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/7.svg" width="20" height="20">[[1783]병든 나이트](https://www.acmicpc.net/problem/1783)(김지은) | X |
+| | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/9.svg" width="20" height="20">[[18222]투에-모스 문자열](https://www.acmicpc.net/problem/18222)(제임스) | O |
 | |  | |
 
 
