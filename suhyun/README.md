@@ -46,7 +46,15 @@
 | | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/9.svg" width="20" height="20">[[1931]회의실 배정](https://www.acmicpc.net/problem/1931)(정인하) | O |
 | | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/7.svg" width="20" height="20">[[1783]병든 나이트](https://www.acmicpc.net/problem/1783)(김지은) | X |
 | | <img src="https://d2gd6pc034wcta.cloudfront.net/tier/9.svg" width="20" height="20">[[18222]투에-모스 문자열](https://www.acmicpc.net/problem/18222)(제임스) | O |
-| |  | |
+| 2021.12.02(WEEK12) | [신규 아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410)(현모) | O |
+|  | [숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301)(지은) | O |
+|  | [키패드 누르기](https://programmers.co.kr/learn/courses/30/lessons/67256)(수현) | O |
+|  | [크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/64061)(임스) | O |
+|  | [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889)(잉하) | O |
+|  | [[1차]비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681)(우영) | O |
+|  | [[1차]다트 게임](https://programmers.co.kr/learn/courses/30/lessons/17682)(수진) | O |
+|  | | |
+|  | | |
 
 
 
